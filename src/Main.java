@@ -10,6 +10,8 @@ public class Main {
 
         //2.feladat:
         JackieService service = new JackieService("jackie.txt");
+
+        System.out.println("3.feladat:" + service.getMatrix().length);
         debugger();
     }
 }
