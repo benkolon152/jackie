@@ -51,4 +51,8 @@ public class JackieService {
         }
 
     }
+
+    public int getLinesLength(){
+        return getMatrix().length;
+    }
 }

@@ -9,9 +9,9 @@ public class Main {
         //1.feladat: Jackie
 
         //2.feladat:
-        JackieService service = new JackieService("jackie.txt");
+        JackieService service = new JackieService("src/jackie.txt");
 
-        System.out.println("3.feladat:" + service.getMatrix().length);
+        System.out.println("3.feladat: " + service.getLinesLength());
         debugger();
     }
 }
